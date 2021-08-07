@@ -1,0 +1,654 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html{
+    font-size:medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0%;
+padding: 0%;
+}
+
+/* ################----------section navbar------############ */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 59, 226);
+    
+}
+
+#navbar{
+    background-color: rgb(59, 59, 226);
+    color: rgb(255, 255, 255);
+    width:1518px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* ----------------brand name ---------------------- */
+#navbar div:nth-of-type(1){
+   
+    width: 15rem;
+    margin-left:-8%;
+    text-align: end;
+  
+}
+#navbar div:nth-of-type(1) h2{
+    font-size:1.9rem;
+    font-weight:500;
+}
+#navbar div:nth-of-type(1) span{
+    color: yellow;
+    font-size:1.2rem;
+    font-weight: 500;
+}
+#navbar div:nth-of-type(1) h3{
+    font-size: 1.1rem;
+}
+
+/* ------------code ends here------------------------ */
+
+/* ---------------INPUT SEARCH BOX CODE --------------*/
+#navbar div:nth-of-type(2) {
+    
+    width:35%;
+}
+div:nth-of-type(2) input{
+    width:90%;
+    height: 2rem;
+    margin-top:1.8rem;
+    margin-left: 0.4rem;
+}
+/* ------------INPUT CODE ENDS HERE------------ */
+
+/* --------------BUTTON AND ACHOR TAG---------- */
+#navbar div:nth-of-type(3) {
+   
+    width:35%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+#navbar div:nth-of-type(3) button{
+    padding-left: rem;
+    padding-right: rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: whitesmoke;
+    color: rgb(72, 72, 248);
+    font-weight: bolder;
+    text-transform: lowercase;
+    width:30%;
+    border: 1px solid white;
+    display: block;
+   
+}
+
+#navbar div:nth-of-type(3) a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: lowercase;
+    display: block;
+    
+}
+
+a:nth-of-type(2){
+  
+  
+   width:30%;
+}
+a:nth-of-type(1) {
+   
+    width:30% ;
+}
+
+/* ---------button anchar tag code here */
+
+@media ( max-width: 780px ) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+   #navbar div:nth-of-type(1){text-align:center;
+   width:12rem;
+    }
+    #navbar div:nth-of-type(1) h2{
+        font-size:1.6rem;
+    }
+    #navbar div:nth-of-type(1) h3{
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    } 
+
+    #navbar div:nth-of-type(2){
+        width: 90%;
+        margin-top: -1.5rem;
+        margin-left: 1rem;
+    }
+    #navbar div:nth-of-type(3){
+        
+        width: 90%;
+        margin-top: 0.5rem;
+    }
+    #navbar div:nth-of-type(3) a{
+        text-align: right;
+        
+    }
+   
+}
+
+
+/* ####################nav bar 2 code starts here########################*/
+#main1{
+    width: 100%;
+    height: auto;
+     display: flex;
+     justify-content: center;
+     background-color: saddlebrown; 
+}
+#navbar2{
+   width:100vw;
+    background-color: rgb(245, 255, 250);
+}  
+#navbar2 .offers{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap; 
+    
+    height: auto;
+    margin-top:2rem;
+} 
+.offers img{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.offers h3{
+   
+    width:6rem;
+    font-weight: 500;
+}
+#main2{
+    display: flex;
+    justify-content: center; 
+    width:100%;
+    
+    
+}
+#main2 img{
+    width:98.5vw;
+    height:35vh;
+    cursor: pointer;
+    margin: auto;
+   
+   
+}
+
+/* ------------------------------------------------------MEDIA ----------QUERIES------------------------------- */
+@media ( max-width:760px ) {
+    #main2 img{
+        height:19vh;
+
+    }
+}
+/* #########----div----2----boat------img-----###########  */
+
+/* ############----MAIN 3---CODE--################ */
+
+#deals{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#deals .rakhi{
+    width: 84%;
+    background-color: white;
+    height:auto;
+    margin-left:0.3rem;
+    margin-top:0.5rem;
+    text-align: center;
+}
+.images h4{
+    color: rgb(38, 219, 38);
+    font-weight: 500;
+}
+.images h5{
+    font-weight: 500;
+}
+.rakhi button{
+    margin-left:70%;
+    width:6rem;
+    height:1.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: rgb(0, 0, 250);
+    color: whitesmoke;
+}
+.rakhi button:hover{
+    background-color: white;
+    color: rgb(57, 57, 247);
+    border: 1px solid white;
+}
+.rakhi .images{
+    display: flex;
+    justify-content:space-evenly;
+    clear: left;
+    flex-wrap: wrap;
+}
+.rakhi h2{
+    margin-left:4rem;
+    float: left;
+    font-weight:500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rakhi img{
+    width: 150px;
+    height: 150px;
+margin: 1rem;}
+
+    
+#deals .bigsave{
+    width: 15%;
+    height: 50%;
+    margin-left:0.4rem;
+    margin-top:0.5rem;
+}
+.bigsave img{
+    width: 100%;
+    height:40vh;}
+
+.rakhi a{
+    text-decoration: none;
+    color: black;
+}
+    
+    /*#######################----MAIN--3--CODE---END----HERE-----#################################  */
+
+ /*--------------------------------------MEDIA ---------QUERIES---------------------------------------------------------------  */
+ @media ( max-width:760px ) {
+     #deals .bigsave{
+         display:none;
+     }
+     #deals .rakhi{
+         width: 98vw;
+     }
+ }
+ /* -------------------------------------MEDIA---------QUERIES----------END----------------------------------------------------- */
+
+
+ /* ############################-------------------main 3-----------------################################################## */
+#topdeals{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  
+}
+#topdeals .topdeal{
+ display: flex;  
+}
+.topdeal img{
+    width:99%;
+    height: 40vh;
+    box-sizing: border-box;border: 3px solid white;
+
+}
+ 
+
+
+ /* ###################------------------MEDIA QUERIES-------------#######################################3 */
+ @media ( max-width: 760px ) {
+ 
+    .topdeals img{
+        width:98.5vw;
+        border: none;
+        
+        
+
+    }
+    .topdeal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+    .topdeal div:nth-of-type(3){
+        display: none;
+    }
+ }
+
+ 
+ /* ########################-------END---------MEDIA QUERIES-------------######################################### */
+ #trending{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     
+ }
+ #trending .menstrend{
+    
+     width:100%;
+     
+}
+ .menstrend .menwear{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 2px solid gray;
+ }
+ .menstrend .menwear h2{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 500;
+     font-size: 2rem;
+     margin-left: 1.2rem;
+}
+.menstrend .menwear button{
+    width:8rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    padding-right:1.5rem;
+    padding-left:1.5rem;
+    background-color: rgb(57, 57, 247);
+    color: white;
+    border:2px solid rgb(57, 57, 247);
+    /* font-weight: 700; */
+}
+.menstrend .menwear button:hover{
+    background-color: white;
+    color: rgb(57, 57, 247);
+    border: 2px solid white;
+    /* font-weight: 700; */
+}
+
+.menstrend .option{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+.option .footwear1{
+    width: 160px;
+}
+.option .footwear2{
+    width: 160px;
+}
+.option .footwear3{
+    width: 160px;
+}
+.option .footwear4{
+    width: 160px;
+}
+.option .footwear5{
+    width: 160px;
+}
+.option .footwear6{
+    width: 160px;
+}
+.option .footwear7{
+    width: 160px;
+}
+.option .footwear8{
+    width: 160px;
+}
+.menstrend .option img{
+    width: 140px;
+    height: 120px;
+    margin-top: 1rem;
+}
+.menstrend .option h4{
+    color: green;
+    font-weight: 500;
+}
+.menstrend .option h5{
+    color: gray;
+    font-weight: 500;
+}
+
+@media ( max-width: 640px ) {
+    /* .option .footwear5{
+        display: none;
+    } */
+    .option .footwear6{
+        display: none;
+    }
+    .option .footwear7{
+        display: none;
+    }
+    .option .footwear8{
+        display: none;
+    }
+}
+@media ( max-width: 480px ) {
+    .option .footwear5{
+        display: none;}
+}
+
+/* ################### ------WOMEN-----WEAR-----######## */
+#women{
+    width: 100%;
+    
+    height:auto;
+}
+#women .womentrend{
+    border-bottom:3px solid grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+#women .womentrend h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+    font-size:1.8rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+#women .womentrend button{
+    width: 10rem;
+    box-sizing: border-box;
+    margin-right: 0.8rem;
+    margin-top:0.3rem;
+    background-color: rgb(57, 57, 247);
+    border: 2px solid rgb(57, 57, 247);
+    color: white;
+}
+
+#women .womentrend button:hover{
+    background-color: white;
+    color: rgb(57, 57, 247);
+    border:2px solid white;
+}
+
+#women .collect{
+    
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    flex-wrap:wrap ;
+}
+#women .collect img{
+    width: 130px;
+    height: 145px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.collect #lady{
+    width: 160px;
+}
+.collect h4{
+    color: rgb(23, 189, 23);
+    font-weight: 500;
+}
+.collect h5{
+    color: gray;
+    font-weight: 500;
+}
+
+@media ( max-width:640px ) {
+    .collect .collection6{
+        display: none;
+    }
+    .collect .collection7{
+        display: none;
+    }
+    .collect .collection8{
+        display: none;
+    }
+    .womentrend button{
+        height: 2rem;
+        
+    }
+}
+
+@media ( max-width: 480px ) {
+    .collect .collection1{
+   display:none;
+    }
+}
+
+/* #################-----------------footer-----------##########-----CODE-----############ */
+#footer{
+    background-color: rgb(243, 243, 243);
+}
+#footer .flipkart{
+    font-size:12px;
+}
+#footer .flipkart{
+    margin: 1rem;
+}
+#footer .flipkart h2{
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+}
+#footer .flipkart p{
+    margin-bottom: 0.5rem;
+}
+
+
+
+#footer .buy {
+    margin-left: 1rem;
+    font-size: 13px;
+}
+
+#footer .buy h2{
+    margin-bottom:0.5rem;
+}
+#footer .buy h3{
+    font-size: 13px;
+    margin-bottom: 0.3rem;
+    font-weight: 400;
+    
+}
+
+@media ( max-width: 500px ){
+    #footer .flipkart , .buy{
+        display: none;
+    }
+}
+
+#footer .menu{
+    background-color: black;
+    width: 100%;
+    height:auto;
+}
+
+
+
+
+.menu{
+    display: flex;
+   
+    
+    
+}
+
+.menu #help{
+   
+    display: flex;
+    width: 60%;
+    justify-content:space-between;
+    margin-top:1rem;
+    margin-left: 0.5rem;
+
+
+}
+
+#help .about{
+    display: flex;
+    flex-direction: column;
+    
+}
+#help .about h3{
+    color: grey;
+    font-weight:500;
+    font-size:0.9rem;
+    margin:1.6rem;
+
+} 
+
+#help .about a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+   margin-left: 1.5rem;
+   margin-bottom: 0.8rem;
+   
+   width:6rem;
+}
+
+
+ #reach{
+    
+     margin-top: 2rem;
+     display: flex;
+     color: white;
+     margin-left: 5rem;
+     border-left: 3px solid white;
+     margin-bottom: 3rem;
+     
+ }
+#reach h3{
+     color: grey;
+     margin-bottom: 0.5rem;
+     margin-left: 0.5rem;
+ }
+ #reach p{
+     margin-left: 0.5rem;
+ }
+
+
+ @media ( max-width:640px ) {
+    
+     #reach{
+         display: none;
+     }
+     .menu #help{
+        width: 90%;
+     }
+ }
+ @media ( max-width: 780px ) {
+     .menu{
+         display: flex;
+         flex-direction: column;
+         
+     }
+     #reach{
+         border: none;
+         margin: 0%;
+         margin-top: 1rem;
+     }
+     
+}
